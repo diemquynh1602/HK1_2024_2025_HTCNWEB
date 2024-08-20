@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUAN 1 BAI 6B</title>
+    <style>
+        .all {
+            margin: auto;
+            width: 40%;
+            border: 1px solid rgb(110, 223, 235);
+            height: 520px;
+        }
+        
+        #mess {
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all">
+        <h1 valign="top">Contact Us</h1>
+        <div class="Urmess">
+            <fieldset>
+                <legend>Your message</legend>
+                <form>
+                    <label for="to">To:</label>
+                    <input type="text" id="to" name="to" value="Example" style="margin-left: 55px;"><br>
+                    <label for="usEm">Your email:</label>
+                    <input type="text" id="usEm" name="usEm"><br>
+
+                    <label for="mess">Message</label>
+                    <textarea name="mess" id="mess" rows="9" cols="50" style="width: 350px; height: 150px;margin-left: 19px;">
+                </textarea>
+                    <p>Attach File <input type="submit" value="Choose File"> No file chosen</p>
+                </form>
+            </fieldset>
+        </div>
+        <div class="how">
+            <fieldset>
+                <legend>How you found us</legend>
+                <label for="choose">How did you hear of us</label>
+                <select name="choose" id="choose">
+                <option value="ScanMaster">Google</option>
+            </select> <br>
+                <Label for="tick">Newsletter</Label>
+                <input type="checkbox" id="tick" name="tick" style="margin-left: 80px;">
+                <label for="tick">Ensure this box is checked if you would like to receive email updates</label>
+            </fieldset>
+        </div>
+        <div class="end">
+            <input type="submit" value="Send message">
+        </div>
+    </div>
+</body>
+
+</html>
