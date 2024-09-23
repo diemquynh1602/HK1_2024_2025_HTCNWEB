@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    height: 600px;
+    border: 1px solid grey;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #29507b;
+    color: white;
+    position: relative;
+}
+header .content
+{
+    padding-top: 20px;
+    padding-left: 30px
+}
+header>form {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+header>form>input {
+    background-color: #1b3350;
+    color: white;
+    font-size: 8pt;
+    padding: 3px;
+}
+header form
+{
+    padding-right: 10px;
+    padding-top: 20px;
+}
+header>form>input::placeholder {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    background-color: #3c71b2;
+    padding: 10px;
+}
+
+section {
+    width: 70%;
+    height: 450px;
+    float: left;
+    padding-right: 15px;
+}   
+
+article.part1 {
+    width: 60%;
+    height: 400px;
+    float: left;
+  
+}
+
+article.part2 {
+    width: 40%;
+    height: auto;
+    float: left;
+    border-bottom: 2px dashed brown;
+    margin-bottom: 20px;
+   
+}
+article.part3>p
+{
+    padding-top: 30px;
+}
+aside {
+    width: 30%;
+    height: 450px;
+    float: left;
+    
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    clear: both;
+    background-color: #29507b;
+}
+
+section>h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px dashed brown;
+}
+
+article.part1>p {
+    padding: 10px;
+    color: red;
+    text-shadow: 5px 5px 5px green;
+}
+
+form.frm input,
+textarea {
+    background-color: #f7f7f7;
+    padding: 5px;
+    margin: 2px;
+}
+aside
+{
+    height: auto;
+    margin-top: 30px;
+    background-color: #f8f8f8;
+    padding-left: 5px;
+}
+aside a
+{
+    color: blue;
+    float: right;
+    padding-right: 20px;
+}
