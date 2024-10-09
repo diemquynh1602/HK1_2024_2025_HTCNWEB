@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta>
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+<body>
+    <div class="row">
+        <div class="col-12">
+            
+            <nav class="navbar navbar-expand-md bg-dark   navbar-dark ">
+                <img src="../images/hinh.png" alt="">
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#myModal" style="margin-left: 300px;">Đăng nhập</button>  
+  <div class="modal fade " id="myModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content ">
+            <div class="modal-header  ">
+                <button type="button" class="btn " data-toggle="modal" data-target="#dangnhap">Đăng nhập</button> 
+                <p style="margin-top: 8px;">/</p>
+                <button type="button" class="btn " data-toggle="modal" data-target="#dangky">Đăng ký</button>  
+                <button type="button" class="close" data-dismiss="modal "> &times;</button>
+            </div>
+            <div class="modal-body " >
+                <p>Vui lòng đăng nhập trước khi mua vé để tích lũy điểm, cơ hội nhận thêm nhiều ưu đãi từ chương trình thành viên Galaxy Cinema</p>
+                <input type="email" class="form-control " placeholder="Email" >
+                
+                <input type="password" class="form-control " placeholder="Password" style="margin-top: 10px;">
+               <p>Quên mật khẩu?</p>
+               <button type="button" class="btn btn-warning  " data-dismiss="modal">ĐĂNG NHẬP</button>
+            </div>
+           
+        </div>
+    </div>
+  </div>
+  <div class="modal fade " id="dangky" >
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content ">
+            <div class="modal-header  ">
+                <h4 class="modal-title ">ĐĂNG KÝ</h4>
+                <button type="button" class="close" data-dismiss="modal "> &times;</button>
+            </div>
+            <div class="modal-body ">
+                <form action="">
+                    <div class="row">
+                        <div class="col-12"><input type="text" class="form-control " placeholder="Họ tên" ></div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-6"><input type="text" class="form-control " placeholder="Số điện thoại" ></div>
+                        <div class="col-6"> <select name="" id="" class="form-control ">
+                            <option value="">Chọn giới tính</option>
+                            <option value="">Nam</option>
+                            <option value="">Nữ</option>
+                        </select> </div>
+                    </div>
+                
+                    <div class="row">
+                        <div class="col-12"><input type="email" class="form-control " placeholder="Email" ></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6"><input type="password" class="form-control " placeholder="Mật khẩu" ></div>
+                        <div class="col-6"><input type="password" class="form-control " placeholder="Xác nhận mật khẩu" ></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6"><select name="" id="" class="form-control ">
+                            <option value="">Chọn thành phố</option>
+                            <option value="">Hà Nội</option>
+                            <option value="">Hồ Chí Minh</option>
+                            <option value="">Hải Phòng</option>
+                        </select></div>
+                        <div class="col-6"><select name="" id="" class="form-control ">
+                            <option value="">Quận</option>
+                            <option value="">Gò Vấp</option>
+                            <option value="">Bình Thạnh</option>
+                        </select></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12"><input type="text" class="form-control " placeholder="Địa chỉ" ></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12"><input type="datetime-local"  class="form-control " placeholder="Chọn ngày"></div>
+                    </div>
+
+                    <p>Tôi đã đọc kỹ và đồng ý với <b style="color: orange;">CHÍNH SÁCH</b> của chương trình</p>
+
+                    <div class="row">
+                        <div class="col-12"><button type="button" class="btn btn-warning  " data-dismiss="modal">ĐĂNG KÝ</button></div>
+                    </div>
+
+                </form>
+                
+            </div>
+           
+        </div>
+    </div>
+  </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Mua vé</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Phim</a>
+                      <div class="dropdown-menu ">
+                          <a class="dropdown-item " href="#">Phim Đang Chiếu</a>
+                          <a class="dropdown-item " href="#">Phim Sắp Chiếu </a>
+                          <a class="dropdown-item " href="#">Phim IMAX</a>
+                      </div>
+                    </li>
+                    
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Góc Điện Ảnh</a>
+                        <div class="dropdown-menu ">
+                            <a class="dropdown-item " href="#">Thể Loại Phim</a>
+                            <a class="dropdown-item " href="#">Diễn Viên </a>
+                            <a class="dropdown-item " href="#">Đạo Diễn</a>
+                            <a class="dropdown-item " href="#">Bình Luận Phim</a>
+                            <a class="dropdown-item " href="#">Blog Điện Ảnh</a>
+                        </div>
+                      </li>
+
+                      <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Rạp/Giá Vé</a>
+                        <div class="dropdown-menu ">
+                            <a class="dropdown-item " href="#">Galaxy Nguyễn Du</a>
+                            <a class="dropdown-item " href="#">Glaxy Bến Tre</a>
+                            <a class="dropdown-item " href="#">Galaxy Quang Trung</a>
+                            <a class="dropdown-item " href="#">Galaxy Hải Phòng </a>
+                            <a class="dropdown-item " href="#">Galaxy Sala</a>
+                        </div>
+                      </li>
+                  </ul>
+                </div>  
+              </nav> 
+        </div>
+    </div>
+       <div class="row no-gutters">
+        <div class="col-3 "><a href="https://www.galaxycine.vn/dat-ve/gap-lai-chi-bau/"><img src="../images/hinh1.jpg" alt=""></a></div>
+        <div class="col-3"><a href="https://www.galaxycine.vn/dat-ve/dune-2/"><img src="../images/hinh2.jpg" alt=""></a></div>
+       
+        <div class="col-3"><a href="https://www.galaxycine.vn/dat-ve/mai/"><img src="../images/hinh3.jpg" alt=""></a></div>
+        <div class="col-3"><a href="https://www.galaxycine.vn/dat-ve/citizen-of-a-kind/"><img src="../images/hinh4.jpg" alt=""></a></div>
+       </div>
+       <div class="row">
+        <div class="col-3"><b>Gặp Lại Chị Bầu</b> </div>
+        <div class="col-3"><b>Dune: Hành Tinh Cát- Phần Hai</b></div>
+        <div class="col-3"><b>Mai</b></div>
+        <div class="col-3"><b>Bà Thím Báo Thù</b></div>
+       </div>
+</body>
+</html>
